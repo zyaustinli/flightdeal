@@ -6,7 +6,7 @@ class DataManager:
     #This class is responsible for talking to the Google Sheet.
     def __init__(self) -> None:
         self.destination_data = {}
-        self.sheet_endpoint = "https://api.sheety.co/a00a2addea32a5df568027e749c8d078/flightDeals/prices"
+        self.sheet_endpoint = ""
     def get_destination_data(self):
 
         response = requests.get(url= self.sheet_endpoint)
