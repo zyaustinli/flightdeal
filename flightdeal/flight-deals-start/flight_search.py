@@ -4,7 +4,7 @@ import requests
 class FlightSearch:
     #This class is responsible for talking to the Flight Search API.
     def __init__(self) -> None:
-        self.api_key = '0Wdo1dGipm1WDCI401xNW8Zxq6JDyxlL'
+        self.api_key = ''
 
 
     def update(self, city): 
