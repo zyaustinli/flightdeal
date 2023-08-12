@@ -14,7 +14,7 @@ class FlightData:
         pass
 
     def search(self, city, city_name):
-        self.api_key = '0Wdo1dGipm1WDCI401xNW8Zxq6JDyxlL'
+        self.api_key = ''#enter own key
 
         self.header = {
         "apikey" : self.api_key
